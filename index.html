@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="D:\--MiTaKa--\2 TU-VARNA\4 kurs\ДС\Курсов проект - 2 част\FromYoutuve\1logo.jpg"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Начало</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">За нас</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Промоции</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Контакти</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+
+
+	<!--- Image Slider -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="3.jpg" class="b">
+				<div class="carousel-caption">
+					<h1 class="display-2">Apetito</h1>
+					<h3>Ресторант</h3>
+					<button type="button" class="btn btn-primary btn-lg">Направи резервация</button> <!--btn btn-outline-light btn-lg-->
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="2.jpg" class="b">
+			</div>
+			<div class="carousel-item">
+				<img src="images.jpg" class="b">
+			</div>
+		</div>
+	</div>
+
+	<!--- Jumbotron -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p class="lead">"Вкусната храна и уютната обстановка са само началото на един добър бизнес обяд или просто
+					похапване в добра компания. Музиката е приятно тиха и специално подбрана. С приятели, колеги или със семейството
+					си - заповядайте при нас, за да прекарате приятно свободното си време и да опитате майсторството на нашата кухня.</p>
+			</div>
+			
+		</div>
+	</div>
+
+
+	<!--- Welcome Section -->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Ресторант Apetito</h1>
+			</div>
+			<hr>
+			<div class="col-12">
+				<p class="lead">Добре дошли в ресторант "Apetito".Само при нас, хапни най-вкусната храна, приготвена от
+					професионалисти!</p>
+			</div>
+		</div>
+	</div>
+
+	<!--- Three Column Section -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="D:\--MiTaKa--\2 TU-VARNA\4 kurs\ДС\Курсов проект - 2 част\FromYoutuve\Untitled-2.jpg" class="pic1">
+				<h3>Меню</h3>
+				<p>Разгледай нашето меню от над 100 вида храни и напитки.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="D:\--MiTaKa--\2 TU-VARNA\4 kurs\ДС\Курсов проект - 2 част\FromYoutuve\11Untitled-1.jpg" class="pic1">
+				<h3>Меню специалитет</h3>
+				<p>Разгледай нашето меню от специалитети на заведението.</p>
+			</div>
+			<div class="col-sm-12 col-md-4">
+				<img src="D:\--MiTaKa--\2 TU-VARNA\4 kurs\ДС\Курсов проект - 2 част\FromYoutuve\123s	.jpg" class="pic1">
+				<h3>Храна за вкъщи</h3>
+				<p>Поръчай храна за вкъщи с безплатна доставка до вратата</p>
+			</div>
+		</div>
+
+		<hr class="my-4">
+	</div>
+
+	<!--- Two Column Section -->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-lg-6">
+				<h2>Бар Apetito е предназначен за всички фенове на нощния живот...</h2>
+				<p class="bar">Случвало ли Ви се е да хапнете и пийнете с приятели, но да трябва да си тръгвате защото ресторанта
+					ще затвори?</p>
+				<p class="bar">Сигурни сме, че отговора ще Ви е да!</p>
+				<p class="bar">За ваше удобство ресторант Apetito разполага и с нощен бар, предназначен точно за такива случаи..и
+					не само..</p>
+			</div>
+			<div class="col-lg-6">
+				<img src="D:\--MiTaKa--\2 TU-VARNA\4 kurs\ДС\Курсов проект - 2 част\FromYoutuve\bar.jpg" class="img-fluid">
+			</div>
+
+		</div>
+	</div>
+	<hr class="my-4">
+	<!--- Fixed background -->
+	
+
+	<!--- Emoji Section -->
+
+
+	<!--- Meet the team -->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Какво казват нашите клиенти?</h1>
+			</div>
+			<hr>
+		</div>
+	</div>
+
+	<!--- Cards -->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="D:\--MiTaKa--\2 TU-VARNA\4 kurs\ДС\Курсов проект - 2 част\FromYoutuve\man.jpg">
+					<div class="card-body">
+						<h4 class="card-title">
+							Иван Иванов
+						</h4>
+						<p class="card-text">Възхитен съм от уютната обстановка, която предлага заведението. Препоръчвам на всеки един да
+							опита това удоволствие!</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="D:\--MiTaKa--\2 TU-VARNA\4 kurs\ДС\Курсов проект - 2 част\FromYoutuve\man2.jpg">
+					<div class="card-body">
+						<h4 class="card-title">
+							Гергана Илиева
+						</h4>
+						<p class="card-text">Уникален ресторант! Останах много доволна от вкусната храна и приятна атмосфера! Горещо
+							препоръчвам!</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="D:\--MiTaKa--\2 TU-VARNA\4 kurs\ДС\Курсов проект - 2 част\FromYoutuve\man3.jpg">
+					<div class="card-body">
+						<h4 class="card-title">
+							Златка Райкова
+						</h4>
+						<p class="card-text">Ресторант Apetito е най-добрият ресторант, който някога съм посещавала.Храна и жива музика
+							на световно ниво!</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<hr class="my-4">
+	</div>
+
+	<!--- Two Column Section -->
+
+
+	<!--- Connect -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-12">
+				<h2>Посети нашите социални мрежи:</h2>
+			</div>
+			<div class="col-12 social padding">
+				<a href="#"><i class="fab fa-facebook" ></i></a>
+				<a href="#"><i class="fab fa-twitter" ></i></a>
+				<a href="#"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
+		</div>
+	</div>
+
+	<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+					<hr class="light">
+					<h5>Адрес</h5>
+				<hr class="light">
+				<p>052/ 830 560</p>
+				<p>apetito@gmail.com</p>
+				<p>ул."Дубровник" 54</p>
+				<p>гр.Варна</p>
+			</div>
+			<div class="col-md-4">
+				
+				<hr class="light">
+				<h5>Работно време</h5>
+				<hr class="light">
+				<p>Понеделник-Събота: 9:00-23:00</p>
+				<p>Неделя: 10:00-22:00</p>
+			
+			</div>
+			<div class="col-md-4">
+					
+					<hr class="light">
+					<h5>Натисни върху картата</h5>
+					<hr class="light">
+					<a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%E2%80%9E%D0%94%D1%83%D0%B1%D1%80%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%E2%80%9C+54,+9010+%D0%9B%D0%B5%D0%B2%D1%81%D0%BA%D0%B8,+%D0%92%D0%B0%D1%80%D0%BD%D0%B0/@43.2243239,27.9233953,17z/data=!3m1!4b1!4m5!3m4!1s0x40a45441b7253cdd:0x1165d9da7875c934!8m2!3d43.22432!4d27.925584" target="_blank"><img src="D:\--MiTaKa--\2 TU-VARNA\4 kurs\ДС\Курсов проект - 2 част\FromYoutuve\2.PNG" class="maps"></a>
+					
+				</div>
+				<div class="col-12">
+					<hr class="light">
+					<h5>&copy; Design by Petrov</h5>
+				</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+
+</html>
